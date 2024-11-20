@@ -1,0 +1,12 @@
+.contenedor-flex{
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.contenedor-flex img{
+    height: 200px;
+    width: 200px;
+}

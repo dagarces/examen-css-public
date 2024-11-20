@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.flex-box1{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: orange;
+}
+
+.flex-box2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
+
+.flex-box3{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: grey;
+}

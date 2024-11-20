@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: repeat(2,1fr);
+}
+
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box1{
+    background-color: red;
+    width: 10%;
+    height: 10%;
+}
+
+.box2{
+    background-color: yellow;
+    width: 25%;
+    height: 50%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 25% 50%;
+    justify-content: end;
+    gap: 25px;
+}
+
+.box3{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+}
+
+.box4{
+    background-color: green;
+    width: 300px;
+    height: 300px;
+}

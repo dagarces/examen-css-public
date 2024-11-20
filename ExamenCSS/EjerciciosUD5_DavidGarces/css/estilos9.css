@@ -1,0 +1,84 @@
+.container{
+    font-family: Arial, sans-serif;
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "head head head"
+                         "dia horario fecha";
+    grid-template-rows: 20% 1fr;
+    grid-template-columns: 20% 60% 20%;
+    grid-gap: 10px;
+}
+
+.header{
+    grid-area: head;
+    display: flex;
+    background-color: #2E8B57;
+    color: whitesmoke;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.visualizar-dia{
+    grid-area: dia;
+    display: grid;
+    background-color: #8FBC8F;
+    border: 2px solid #2E8B57;
+    justify-items: center;
+}
+
+.visualizar-dia h2{
+    padding-left: 10px;
+}
+
+.horario{
+    display: grid;
+    align-content: center;
+}
+
+table, th, td{
+    background-color: #8FBC8F;
+    border: 2px solid #2E8B57;
+}
+
+th, td{
+    padding: 8px;
+    text-align: center;
+}
+
+.cabecera-tb{
+    background-color: #2E8B57;
+    color: whitesmoke;
+}
+
+a{
+    font-size: 10px;
+}
+
+.fecha{
+    grid-area: fecha;
+    display: grid;
+    background-color: #8FBC8F;
+    border: 2px solid #2E8B57;
+    align-content: center;
+    justify-items: center;
+}
+
+.fecha ol {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  list-style: none;
+  gap: 10px;
+  padding: 0;
+  border: 1px solid #2E8B57;
+}
+
+.day-name{
+    background-color: #2E8B57;
+    font-weight: bold;
+}
+
+.first-day {
+  grid-column-start: 2;
+}
+

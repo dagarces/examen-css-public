@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 10px;
+}
+
+.box{
+    display: grid;
+    justify-items: center;
+    align-content: space-evenly;
+    background-color: blue;
+}
